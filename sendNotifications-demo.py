@@ -19,8 +19,10 @@ while True:
     for user in all_users.each():
         #iterate through all users
         username = user.key()
+        print(username)
         if username == 'wkutler':
             token = user.val()['token']
+            print(token)
             last_timestamp = user.val()['last_commit_timestamp']
             print('///////////')
             print('checking notifications for ' + username)
