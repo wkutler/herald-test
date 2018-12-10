@@ -1,3 +1,1 @@
-print('hello world')
-print('dalskjdaskjdajlksd')
-print('test again')
+print('test')
